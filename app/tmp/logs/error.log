@@ -1,0 +1,211 @@
+2014-11-03 15:10:14 Error: [MissingControllerException] Controller class IndexController could not be found.
+Exception Attributes: array (
+  'class' => 'IndexController',
+  'plugin' => NULL,
+)
+Request URL: /WebArenaGroupSI1-01-AE/index
+Stack Trace:
+#0 C:\wamp\www\WebArenaGroupSI1-01-AE\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-03 15:11:08 Error: [MissingViewException] View file "C:\wamp\www\WebArenaGroupSI1-01-AE\app\View\Arena\index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\wamp\\www\\WebArenaGroupSI1-01-AE\\app\\View\\Arena\\index.ctp',
+)
+Request URL: /WebArenaGroupSI1-01-AE/Arena/index
+Stack Trace:
+#0 C:\wamp\www\WebArenaGroupSI1-01-AE\lib\Cake\View\View.php(468): View->_getViewFileName(NULL)
+#1 C:\wamp\www\WebArenaGroupSI1-01-AE\lib\Cake\Controller\Controller.php(954): View->render(NULL, NULL)
+#2 C:\wamp\www\WebArenaGroupSI1-01-AE\lib\Cake\Routing\Dispatcher.php(198): Controller->render()
+#3 C:\wamp\www\WebArenaGroupSI1-01-AE\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ArenaController), Object(CakeRequest))
+#4 C:\wamp\www\WebArenaGroupSI1-01-AE\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-11-10 11:14:49 Error: Fatal Error (4): syntax error, unexpected '}', expecting ',' or ';' in [C:\wamp\www\WebArenaGroupSI1-01-AE\app\View\Arena\character.ctp, line 19]
+2014-11-10 11:14:49 Error: [FatalErrorException] syntax error, unexpected '}', expecting ',' or ';'
+Request URL: /WebArenaGroupSI1-01-AE/Arena/character
+Stack Trace:
+#0 C:\wamp\www\WebArenaGroupSI1-01-AE\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\wamp\\www\\Web...', 19)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\wamp\\www\\Web...', 19, Array)
+#2 C:\wamp\www\WebArenaGroupSI1-01-AE\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\wamp\\www\\Web...', 19, Array)
+#3 C:\wamp\www\WebArenaGroupSI1-01-AE\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-11-10 11:15:02 Error: Fatal Error (4): syntax error, unexpected '}', expecting ',' or ';' in [C:\wamp\www\WebArenaGroupSI1-01-AE\app\View\Arena\character.ctp, line 19]
+2014-11-10 11:15:02 Error: [FatalErrorException] syntax error, unexpected '}', expecting ',' or ';'
+Request URL: /WebArenaGroupSI1-01-AE/Arena/character
+Stack Trace:
+#0 C:\wamp\www\WebArenaGroupSI1-01-AE\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\wamp\\www\\Web...', 19)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\wamp\\www\\Web...', 19, Array)
+#2 C:\wamp\www\WebArenaGroupSI1-01-AE\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\wamp\\www\\Web...', 19, Array)
+#3 C:\wamp\www\WebArenaGroupSI1-01-AE\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-11-10 11:23:03 Error: [MissingActionException] Action ArenaController::character.ctp() could not be found.
+Exception Attributes: array (
+  'controller' => 'ArenaController',
+  'action' => 'character.ctp',
+)
+Request URL: /WebArenaGroupSI1-01-AE/Arena/character.ctp?strplus=true
+Stack Trace:
+#0 C:\wamp\www\WebArenaGroupSI1-01-AE\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\WebArenaGroupSI1-01-AE\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ArenaController), Object(CakeRequest))
+#2 C:\wamp\www\WebArenaGroupSI1-01-AE\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-11-10 11:23:48 Error: [MissingActionException] Action ArenaController::character.ctp() could not be found.
+Exception Attributes: array (
+  'controller' => 'ArenaController',
+  'action' => 'character.ctp',
+)
+Request URL: /WebArenaGroupSI1-01-AE/Arena/character.ctp?strplus=true
+Stack Trace:
+#0 C:\wamp\www\WebArenaGroupSI1-01-AE\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\WebArenaGroupSI1-01-AE\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ArenaController), Object(CakeRequest))
+#2 C:\wamp\www\WebArenaGroupSI1-01-AE\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-11-10 11:26:06 Error: [MissingActionException] Action ArenaController::character.ctp() could not be found.
+Exception Attributes: array (
+  'controller' => 'ArenaController',
+  'action' => 'character.ctp',
+)
+Request URL: /WebArenaGroupSI1-01-AE/Arena/character.ctp?strplus=true
+Stack Trace:
+#0 C:\wamp\www\WebArenaGroupSI1-01-AE\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\WebArenaGroupSI1-01-AE\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ArenaController), Object(CakeRequest))
+#2 C:\wamp\www\WebArenaGroupSI1-01-AE\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-11-10 11:26:25 Error: [MissingActionException] Action ArenaController::character.ctp() could not be found.
+Exception Attributes: array (
+  'controller' => 'ArenaController',
+  'action' => 'character.ctp',
+)
+Request URL: /WebArenaGroupSI1-01-AE/Arena/character.ctp?strplus=true
+Stack Trace:
+#0 C:\wamp\www\WebArenaGroupSI1-01-AE\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\WebArenaGroupSI1-01-AE\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ArenaController), Object(CakeRequest))
+#2 C:\wamp\www\WebArenaGroupSI1-01-AE\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-11-10 11:26:36 Error: [MissingActionException] Action ArenaController::character.ctp() could not be found.
+Exception Attributes: array (
+  'controller' => 'ArenaController',
+  'action' => 'character.ctp',
+)
+Request URL: /WebArenaGroupSI1-01-AE/Arena/character.ctp?strplus=true
+Stack Trace:
+#0 C:\wamp\www\WebArenaGroupSI1-01-AE\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\WebArenaGroupSI1-01-AE\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ArenaController), Object(CakeRequest))
+#2 C:\wamp\www\WebArenaGroupSI1-01-AE\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-11-10 11:27:11 Error: [MissingActionException] Action ArenaController::character.ctp() could not be found.
+Exception Attributes: array (
+  'controller' => 'ArenaController',
+  'action' => 'character.ctp',
+)
+Request URL: /WebArenaGroupSI1-01-AE/Arena/character.ctp?strplus=true
+Stack Trace:
+#0 C:\wamp\www\WebArenaGroupSI1-01-AE\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\WebArenaGroupSI1-01-AE\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ArenaController), Object(CakeRequest))
+#2 C:\wamp\www\WebArenaGroupSI1-01-AE\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-11-10 11:27:22 Error: [MissingActionException] Action ArenaController::plusStrength()() could not be found.
+Exception Attributes: array (
+  'controller' => 'ArenaController',
+  'action' => 'plusStrength()',
+)
+Request URL: /WebArenaGroupSI1-01-AE/arena/plusStrength()
+Stack Trace:
+#0 C:\wamp\www\WebArenaGroupSI1-01-AE\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\WebArenaGroupSI1-01-AE\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ArenaController), Object(CakeRequest))
+#2 C:\wamp\www\WebArenaGroupSI1-01-AE\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-11-10 11:27:40 Error: [MissingActionException] Action ArenaController::character.ctp() could not be found.
+Exception Attributes: array (
+  'controller' => 'ArenaController',
+  'action' => 'character.ctp',
+)
+Request URL: /WebArenaGroupSI1-01-AE/arena/character.ctp?strplus=true
+Stack Trace:
+#0 C:\wamp\www\WebArenaGroupSI1-01-AE\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\WebArenaGroupSI1-01-AE\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ArenaController), Object(CakeRequest))
+#2 C:\wamp\www\WebArenaGroupSI1-01-AE\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-11-10 11:31:39 Error: [MissingActionException] Action ArenaController::character.ctp() could not be found.
+Exception Attributes: array (
+  'controller' => 'ArenaController',
+  'action' => 'character.ctp',
+)
+Request URL: /WebArenaGroupSI1-01-AE/arena/character.ctp
+Stack Trace:
+#0 C:\wamp\www\WebArenaGroupSI1-01-AE\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\WebArenaGroupSI1-01-AE\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ArenaController), Object(CakeRequest))
+#2 C:\wamp\www\WebArenaGroupSI1-01-AE\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-11-10 11:32:04 Error: [MissingControllerException] Controller class Character.ctpController could not be found.
+Exception Attributes: array (
+  'class' => 'Character.ctpController',
+  'plugin' => NULL,
+)
+Request URL: /WebArenaGroupSI1-01-AE/character.ctp
+Stack Trace:
+#0 C:\wamp\www\WebArenaGroupSI1-01-AE\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-10 11:36:17 Error: [MissingActionException] Action ArenaController::index.ctp() could not be found.
+Exception Attributes: array (
+  'controller' => 'ArenaController',
+  'action' => 'index.ctp',
+)
+Request URL: /WebArenaGroupSI1-01-AE/Arena/index.ctp
+Stack Trace:
+#0 C:\wamp\www\WebArenaGroupSI1-01-AE\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\WebArenaGroupSI1-01-AE\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ArenaController), Object(CakeRequest))
+#2 C:\wamp\www\WebArenaGroupSI1-01-AE\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-11-10 11:37:50 Error: [MissingActionException] Action ArenaController::index.ctp() could not be found.
+Exception Attributes: array (
+  'controller' => 'ArenaController',
+  'action' => 'index.ctp',
+)
+Request URL: /WebArenaGroupSI1-01-AE/arena/index.ctp
+Stack Trace:
+#0 C:\wamp\www\WebArenaGroupSI1-01-AE\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\WebArenaGroupSI1-01-AE\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ArenaController), Object(CakeRequest))
+#2 C:\wamp\www\WebArenaGroupSI1-01-AE\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-11-10 11:50:35 Error: Fatal Error (1): Class 'FormHelper' not found in [C:\wamp\www\WebArenaGroupSI1-01-AE\app\View\Arena\login.ctp, line 4]
+2014-11-10 11:50:35 Error: [FatalErrorException] Class 'FormHelper' not found
+Request URL: /WebArenaGroupSI1-01-AE/arena/login
+Stack Trace:
+#0 C:\wamp\www\WebArenaGroupSI1-01-AE\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'FormHelp...', 'C:\\wamp\\www\\Web...', 4)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'FormHelp...', 'C:\\wamp\\www\\Web...', 4, Array)
+#2 C:\wamp\www\WebArenaGroupSI1-01-AE\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Class 'FormHelp...', 'C:\\wamp\\www\\Web...', 4, Array)
+#3 C:\wamp\www\WebArenaGroupSI1-01-AE\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-11-10 11:51:41 Error: Fatal Error (4): syntax error, unexpected 'fh' (T_STRING) in [C:\wamp\www\WebArenaGroupSI1-01-AE\app\View\Arena\login.ctp, line 4]
+2014-11-10 11:51:41 Error: [FatalErrorException] syntax error, unexpected 'fh' (T_STRING)
+Request URL: /WebArenaGroupSI1-01-AE/arena/login
+Stack Trace:
+#0 C:\wamp\www\WebArenaGroupSI1-01-AE\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\wamp\\www\\Web...', 4)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\wamp\\www\\Web...', 4, Array)
+#2 C:\wamp\www\WebArenaGroupSI1-01-AE\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\wamp\\www\\Web...', 4, Array)
+#3 C:\wamp\www\WebArenaGroupSI1-01-AE\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-11-10 11:51:53 Error: Fatal Error (1): Call to undefined function FormHelper() in [C:\wamp\www\WebArenaGroupSI1-01-AE\app\View\Arena\login.ctp, line 4]
+2014-11-10 11:51:53 Error: [FatalErrorException] Call to undefined function FormHelper()
+Request URL: /WebArenaGroupSI1-01-AE/arena/login
+Stack Trace:
+#0 C:\wamp\www\WebArenaGroupSI1-01-AE\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to undefin...', 'C:\\wamp\\www\\Web...', 4)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', 'C:\\wamp\\www\\Web...', 4, Array)
+#2 C:\wamp\www\WebArenaGroupSI1-01-AE\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', 'C:\\wamp\\www\\Web...', 4, Array)
+#3 C:\wamp\www\WebArenaGroupSI1-01-AE\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-11-10 11:52:02 Error: Fatal Error (1): Class 'FormHelper' not found in [C:\wamp\www\WebArenaGroupSI1-01-AE\app\View\Arena\login.ctp, line 4]
+2014-11-10 11:52:02 Error: [FatalErrorException] Class 'FormHelper' not found
+Request URL: /WebArenaGroupSI1-01-AE/arena/login
+Stack Trace:
+#0 C:\wamp\www\WebArenaGroupSI1-01-AE\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'FormHelp...', 'C:\\wamp\\www\\Web...', 4)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'FormHelp...', 'C:\\wamp\\www\\Web...', 4, Array)
+#2 C:\wamp\www\WebArenaGroupSI1-01-AE\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Class 'FormHelp...', 'C:\\wamp\\www\\Web...', 4, Array)
+#3 C:\wamp\www\WebArenaGroupSI1-01-AE\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
